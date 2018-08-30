@@ -1,6 +1,6 @@
 import { Route } from "foxify";
 import { name, version } from "../../package.json";
-import queryRoutes from "./query";
+import booksRoutes from "./books";
 
 /**
  * Prefixing all routes by version
@@ -17,6 +17,6 @@ route.get("/", (req, res) => res.json({
   version,
 }));
 
-route.use(queryRoutes);
+route.use(booksRoutes);
 
 export default route;

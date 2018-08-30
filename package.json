@@ -26,37 +26,13 @@
   },
   "dependencies": {
     "@foxify/odin": "0.1.0-beta.15",
-    "express-graphql": "^0.6.12",
-    "foxify": "^0.9.0",
-    "prototyped.js": "^0.18.1"
+    "body-parser": "^1.18.3",
+    "foxify": "^0.9.0"
   },
   "devDependencies": {
-    "@types/express-graphql": "^0.6.1",
-    "@types/graphql": "^0.13.4",
-    "@types/jest": "^23.3.1",
-    "@types/node": "^10.7.1",
-    "graphql": "^0.13.2",
-    "jest": "^23.5.0",
-    "mongodb": "^3.1.3",
-    "mongodb-memory-server": "^2.0.1",
-    "ts-jest": "^23.1.4",
+    "@types/body-parser": "^1.17.0",
+    "@types/node": "^10.9.3",
     "tslint": "^5.11.0",
-    "typescript": "^3.0.1"
-  },
-  "jest": {
-    "globalSetup": "<rootDir>/tests/setup.js",
-    "globalTeardown": "<rootDir>/tests/teardown.js",
-    "testEnvironment": "<rootDir>/tests/environment.js",
-    "moduleFileExtensions": [
-      "ts",
-      "js",
-      "node"
-    ],
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "testMatch": [
-      "<rootDir>/tests/**/*\\.ts"
-    ]
+    "typescript": "^3.0.3"
   }
 }

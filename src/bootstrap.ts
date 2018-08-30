@@ -1,7 +1,7 @@
-import "prototyped.js/es6";
 import * as Foxify from "foxify";
 import * as Odin from "@foxify/odin";
 import * as path from "path";
+import * as bodyParser from "body-parser";
 import routes from "./routes";
 
 declare global {
@@ -32,6 +32,9 @@ Odin.connections({
 });
 
 const server = new Foxify();
+
+// Adding middlewares to server instance
+server.use(bodyParser.json());
 
 // Adding routes to server instance
 server.use(routes);
