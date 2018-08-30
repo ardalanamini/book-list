@@ -18,8 +18,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "lint": "tslint -p tsconfig.json -c tslint.json --exclude '**/*.d.ts'",
-    "test": "jest --runInBand"
+    "lint": "tslint -p tsconfig.json -c tslint.json --exclude '**/*.d.ts'"
   },
   "engines": {
     "node": ">=8"
