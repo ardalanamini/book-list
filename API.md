@@ -183,7 +183,7 @@ HTTP/1.1 200 Ok
     "deleted_at": null,
     "updated_at": "2018-08-30T14:04:34.218Z"
   },
-  message: "Restored successfully"
+  "message": "Restored successfully"
 }
 ```
 
