@@ -7,7 +7,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
     - [Urls](#urls)
-  - [Testing](#testing)
 - [Author](#author)
 - [Packages](#packages)
 
@@ -56,12 +55,6 @@ npm start
   - <`/:id/restore`> (`POST`) restore a deleted book
 
 Full api reference available [here](API.md)
-
-### Testing
-
-```bash
-npm test
-```
 
 ## Author
 
