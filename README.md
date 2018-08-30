@@ -48,12 +48,12 @@ npm start
 
 - <http://localhost:8020/v1> (`GET`) basic information about the api (name & version)
 - <http://localhost:8020/v1/books> (`*`) Books resource route
-  - </> (`GET`) get all books
-  - </:id> (`GET`) get an specific book
-  - </> (`POST`) create a book
-  - </:id> (`PUT`) update an specific book
-  - </:id> (`DELETE`) delete an specific book
-  - </:id/restore> (`POST`) restore a deleted book
+  - <`/`> (`GET`) get all books
+  - <`/:id`> (`GET`) get an specific book
+  - <`/`> (`POST`) create a book
+  - <`/:id`> (`PUT`) update an specific book
+  - <`/:id`> (`DELETE`) delete an specific book
+  - <`/:id/restore`> (`POST`) restore a deleted book
 
 Full api reference available [here](API.md)
 
