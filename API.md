@@ -31,9 +31,9 @@ HTTP/1.1 200 Ok
 {
   "books": [
     {
-      id: "5b7c3882106f51665b480254",
-      name: "Book 1",
-      pageCount: 200,
+      "id": "5b7c3882106f51665b480254",
+      "name": "Book 1",
+      "pageCount": 200,
       "created_at": "2018-08-22T09:56:56.532Z"
     },
     ...
@@ -56,9 +56,9 @@ HTTP/1.1 200 Ok
 
 {
   "book": {
-    id: "5b7c3882106f51665b480254",
-    name: "Book 1",
-    pageCount: 200,
+    "id": "5b7c3882106f51665b480254",
+    "name": "Book 1",
+    "pageCount": 200,
     "created_at": "2018-08-22T09:56:56.532Z"
   }
 }
@@ -99,9 +99,9 @@ HTTP/1.1 200 Ok
 
 {
   "book": {
-    id: "5b7c03b43c9c237488a41fe6",
-    name: "Book 2",
-    pageCount: 100,
+    "id": "5b7c03b43c9c237488a41fe6",
+    "name": "Book 2",
+    "pageCount": 100,
     "created_at": "2018-08-30T14:13:50.454Z"
   }
 }
@@ -134,9 +134,9 @@ HTTP/1.1 200 Ok
 
 {
   "book": {
-    id: "5b7c3882106f51665b480254",
-    name: "Book 1",
-    pageCount: 375,
+    "id": "5b7c3882106f51665b480254",
+    "name": "Book 1",
+    "pageCount": 375,
     "created_at": "2018-08-22T09:56:56.532Z",
     "updated_at": "2018-08-30T14:04:34.218Z"
   }
@@ -157,7 +157,7 @@ url: `/v1/books/:id` (`DELETE`)
 HTTP/1.1 200 Ok
 
 {
-  message: "Removed successfully"
+  "message": "Removed successfully"
 }
 ```
 
@@ -176,9 +176,9 @@ HTTP/1.1 200 Ok
 
 {
   "book": {
-    id: "5b7c3882106f51665b480254",
-    name: "Book 1",
-    pageCount: 375,
+    "id": "5b7c3882106f51665b480254",
+    "name": "Book 1",
+    "pageCount": 375,
     "created_at": "2018-08-22T09:56:56.532Z",
     "deleted_at": null,
     "updated_at": "2018-08-30T14:04:34.218Z"
